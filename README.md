@@ -17,7 +17,7 @@ my personal arch linux rice using:
 ## 🚀 install
 
 ```bash
-git clone https://github.com/d0gjlol/dotfiles.git
+git clone https://github.com/yikeseternal/dotfiles
 cd dotfiles
 chmod +x install.sh
 ./install.sh
