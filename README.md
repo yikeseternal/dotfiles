@@ -33,5 +33,5 @@ cd dotfiles
 sudo pacman -S --needed pipewire git swww waybar kitty hyprland wofi blueman bluez bluez-utils grim slurp
 ```
 
-## 🎨 needed wallpaper (download to your home folder)
+## 🎨 needed wallpaper (save as `wallpaper.jpg` and download to home folder)
 ![wallpaper](https://github.com/user-attachments/assets/5b6ea3c6-8270-4136-a0c7-d1d1d2126a2c)
