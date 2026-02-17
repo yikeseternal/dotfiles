@@ -27,6 +27,8 @@ cp ~/dotfiles/config.jsonc ~/.config/waybar/config1.jsonc
 cp ~/dotfiles/config.jsonc ~/.config/waybar/config2.jsonc
 cp ~/dotfiles/kitty.conf ~/.config/kitty/
 cp ~/dotfiles/hyprland.conf ~/.config/hypr/
+cp ~/dotfiles/look ~/.config/wofi/
+cp ~/dotfiles/feel.css ~/.config/wofi/
 ```
 
 ## 🎨 needed wallpaper (save as `wallpaper.jpg` and download to home folder)
