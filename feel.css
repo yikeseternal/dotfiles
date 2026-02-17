@@ -1,43 +1,45 @@
-/* main container */
-window {
-    background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
-    border-radius: 8px;
-    padding: 5px;
+/* entire window */
+#window {
+    background-color: rgba(50, 50, 50, 0.5); /* semi-transparent gray */
+    border-radius: 6px;
+    padding: 0px;
 }
 
-/* entries */
-button {
-    color: #ffffff; /* white text */
-    background-color: rgba(0, 0, 0, 0); /* fully transparent buttons */
+/* search bar */
+#input {
+    background-color: rgba(50, 50, 50, 0.5);
+    color: #ffffff; /* white typed text */
     border: none;
-    padding: 5px 10px;
-    font-family: monospace;
+    padding: 6px;
 }
 
-/* hovered entries */
-button:hover {
-    background-color: rgba(255, 255, 255, 0.1); /* subtle white hover */
+/* list of apps */
+#inner-box, #outer-box {
+    background-color: transparent;
 }
 
-/* selected entry */
-button:selected {
-    background-color: rgba(255, 255, 255, 0.2); 
-    color: #ffffff;
+/* each entry */
+#entry {
+    background-color: transparent;
+    padding: 4px 8px;
 }
 
-/* search box */
-entry {
-    color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.3);
-    border: none;
-    padding: 5px 10px;
-    font-family: monospace;
-    border-radius: 5px;
+/* the actual label inside an entry */
+#text {
+    color: #ffffff; /* force white text */
 }
 
-/* scrollbar */
-scrollbar {
+/* hovered/selected entry */
+#entry:selected {
+    background-color: rgba(255, 255, 255, 0.12); /* subtle highlight */
+}
+
+#entry:selected #text {
+    color: #ffffff; /* ensure white on select */
+}
+
+/* scrollbar (tiny, barely visible) */
+#scroll {
     background-color: rgba(255, 255, 255, 0.1);
-    width: 6px;
-    border-radius: 3px;
+    width: 4px;
 }
