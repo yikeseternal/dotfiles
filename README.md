@@ -30,5 +30,9 @@ cp ~/dotfiles/look ~/.config/wofi/
 cp ~/dotfiles/feel.css ~/.config/wofi/
 ```
 
-## 🎨 needed wallpaper (save as `wallpaper.jpg` and download to home folder)
-![wallpaper](https://github.com/user-attachments/assets/5b6ea3c6-8270-4136-a0c7-d1d1d2126a2c)
+to change the wallpaper, open your favourite text editor and go into `~/.config/hypr/hyprland.conf`. mine is `nano`
+find these lines: 
+`exec-once = waybar & swww-daemon
+exec-once = swww img ~/wallpaper.jpg`
+replace ~/wallpaper.jpg with your wallpaper path
+
