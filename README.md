@@ -11,7 +11,6 @@ my personal arch linux rice using:
 - `config/waybar/` → waybar config
 - `config/kitty/` → kitty config
 - `config/fish/` → fish shell config
-- `install.sh` → symlink installer with backups
 
 ## 📦 needed packages
 
