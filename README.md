@@ -22,15 +22,11 @@ sudo pacman -S --needed pipewire git fish swww waybar kitty hyprland wofi bluema
 ## 🚀 install
 ```bash
 git clone https://github.com/larpmaxxer/dotfiles
-cd dotfiles
-chmod +x install.sh
-./install.sh
-```
-
-## 🗑️ uninstall
-```bash
-cd dotfiles
-./uninstall.sh
+cp ~/dotfiles/config.fish ~/.config/fish/
+cp ~/dotfiles/config.jsonc ~/.config/waybar/config1.jsonc
+cp ~/dotfiles/config.jsonc ~/.config/waybar/config2.jsonc
+cp ~/dotfiles/kitty.conf ~/.config/kitty/
+cp ~/dotfiles/hyprland.conf ~/.config/hypr/
 ```
 
 ## 🎨 needed wallpaper (save as `wallpaper.jpg` and download to home folder)
