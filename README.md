@@ -22,8 +22,8 @@ sudo pacman -S --needed pipewire git fish swww waybar kitty hyprland wofi bluema
 ```bash
 git clone https://github.com/larpmaxxer/dotfiles
 cp ~/dotfiles/config.fish ~/.config/fish/
-cp ~/dotfiles/config.jsonc ~/.config/waybar/config1.jsonc
-cp ~/dotfiles/config.jsonc ~/.config/waybar/config2.jsonc
+cp ~/dotfiles/config.jsonc ~/.config/waybar
+cp ~/dotfiles/style.css ~/.config/waybar
 cp ~/dotfiles/kitty.conf ~/.config/kitty/
 cp ~/dotfiles/hyprland.conf ~/.config/hypr/
 cp ~/dotfiles/feel.css ~/.config/wofi/
